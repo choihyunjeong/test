@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 1000px;
+}
+.counters {
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	justify-content: space-between;
+}
+
+p {
+	color: #ffffff;
+	font-size: 3rem;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
